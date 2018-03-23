@@ -1,5 +1,8 @@
 import mongoose from 'mongoose'
+import User from '../models/User'
 
-// import model here
+const user = (req, res, next) => {
+  // write your controller
+}
 
-// write your controller
+export default user

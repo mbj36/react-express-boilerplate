@@ -1,6 +1,7 @@
 import express from 'express'
 
 const router = express.Router()
+import user from '../controllers/userController'
 
 /*
 
@@ -8,9 +9,9 @@ define your routes here
 
 example - 
 
-router.route('/users').get(getUser)
+router.route('/users').get(user)
 
-// Here getUser is a function coming from your controller
+// Here user is a function coming from your controller
 
 */
 
